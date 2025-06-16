@@ -4,8 +4,8 @@ goVersion=$(go version | sed 's/go version //')
 gitAuthor="L1H0n9Jun"
 gitCommit=$(git log --pretty=format:"%h" -1)
 
-version=v3.40.0
-webVersion=v3.40.0
+version=v4.0.0
+webVersion=v4.0.0
 
 echo "backend version: $version"
 echo "frontend version: $webVersion"
