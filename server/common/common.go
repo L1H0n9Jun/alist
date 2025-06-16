@@ -3,8 +3,9 @@ package common
 import (
 	"strings"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
+	"alist/cmd/flags"
+	"alist/internal/conf"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )

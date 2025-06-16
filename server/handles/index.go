@@ -3,11 +3,12 @@ package handles
 import (
 	"context"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/search"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/internal/search"
+	"alist/internal/setting"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )

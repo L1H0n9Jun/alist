@@ -11,12 +11,13 @@ import (
 	stdpath "path"
 	"strconv"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/drivers/base"
+	"alist/pkg/utils"
+
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/driver"
+	"alist/internal/model"
 )
 
 type Terabox struct {

@@ -8,10 +8,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/http_range"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/pkg/http_range"
+	"alist/pkg/utils"
 )
 
 type FileStream struct {

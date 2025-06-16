@@ -3,7 +3,7 @@ package yandex_disk
 import (
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/model"
 )
 
 type TokenErrResp struct {

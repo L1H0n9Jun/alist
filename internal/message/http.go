@@ -3,7 +3,8 @@ package message
 import (
 	"time"
 
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 )

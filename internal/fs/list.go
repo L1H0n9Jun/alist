@@ -3,9 +3,10 @@ package fs
 import (
 	"context"
 
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
+
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

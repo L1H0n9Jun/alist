@@ -1,10 +1,10 @@
 package lanzou
 
 import (
+	"alist/internal/model"
+	"alist/pkg/utils"
 	"errors"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"time"
 )
 

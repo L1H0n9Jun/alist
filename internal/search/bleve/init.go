@@ -1,8 +1,9 @@
 package bleve
 
 import (
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/search/searcher"
+	"alist/internal/conf"
+	"alist/internal/search/searcher"
+
 	"github.com/blevesearch/bleve/v2"
 	log "github.com/sirupsen/logrus"
 )

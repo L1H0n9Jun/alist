@@ -3,9 +3,10 @@ package _115
 import (
 	"time"
 
+	"alist/internal/model"
+	"alist/pkg/utils"
+
 	"github.com/SheltonZhu/115driver/pkg/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
 )
 
 var _ model.Obj = (*FileObj)(nil)

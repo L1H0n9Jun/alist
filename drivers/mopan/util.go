@@ -3,8 +3,9 @@ package mopan
 import (
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/model"
+	"alist/pkg/utils"
+
 	"github.com/foxxorcat/mopan-sdk-go"
 )
 

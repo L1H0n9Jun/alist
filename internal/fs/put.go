@@ -1,13 +1,14 @@
 package fs
 
 import (
+	"alist/internal/driver"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/task"
 	"context"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/task"
+
 	"github.com/pkg/errors"
 	"github.com/xhofe/tache"
 )

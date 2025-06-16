@@ -1,16 +1,17 @@
 package meilisearch
 
 import (
+	"alist/internal/model"
+	"alist/internal/search/searcher"
+	"alist/pkg/utils"
 	"context"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/search/searcher"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/google/uuid"
-	"github.com/meilisearch/meilisearch-go"
 	"path"
 	"strings"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/meilisearch/meilisearch-go"
 )
 
 type searchDocument struct {

@@ -1,19 +1,20 @@
 package handles
 
 import (
+	"alist/internal/task"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/task"
 	"io"
 	stdpath "path"
 
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/sign"
-	"github.com/alist-org/alist/v3/pkg/generic"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/internal/errs"
+	"alist/internal/fs"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/sign"
+	"alist/pkg/generic"
+	"alist/pkg/utils"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

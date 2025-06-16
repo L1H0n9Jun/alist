@@ -11,7 +11,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/alist-org/alist/v3/drivers/base"
+	"alist/drivers/base"
+
 	"github.com/go-resty/resty/v2"
 )
 

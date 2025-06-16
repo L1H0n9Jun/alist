@@ -6,14 +6,15 @@ import (
 	stdpath "path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/internal/sign"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/internal/conf"
+	"alist/internal/driver"
+	"alist/internal/fs"
+	"alist/internal/model"
+	"alist/internal/setting"
+	"alist/internal/sign"
+	"alist/pkg/utils"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )

@@ -1,20 +1,16 @@
 package pikpak
 
 import (
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
 	"bytes"
 	"context"
 	"crypto/md5"
 	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	jsoniter "github.com/json-iterator/go"
-	"github.com/pkg/errors"
-	"golang.org/x/oauth2"
 	"io"
 	"net/http"
 	"path/filepath"
@@ -23,7 +19,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alist-org/alist/v3/drivers/base"
+	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	jsoniter "github.com/json-iterator/go"
+	"github.com/pkg/errors"
+	"golang.org/x/oauth2"
+
+	"alist/drivers/base"
+
 	"github.com/go-resty/resty/v2"
 )
 

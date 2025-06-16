@@ -4,11 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/conf"
+	"alist/internal/db"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
+
 	mapset "github.com/deckarep/golang-set/v2"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

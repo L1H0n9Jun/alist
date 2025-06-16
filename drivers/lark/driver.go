@@ -10,9 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/driver"
+	"alist/internal/errs"
+	"alist/internal/model"
+
 	lark "github.com/larksuite/oapi-sdk-go/v3"
 	larkcore "github.com/larksuite/oapi-sdk-go/v3/core"
 	larkdrive "github.com/larksuite/oapi-sdk-go/v3/service/drive/v1"

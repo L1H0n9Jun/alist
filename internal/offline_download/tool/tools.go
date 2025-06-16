@@ -1,8 +1,8 @@
 package tool
 
 import (
+	"alist/internal/model"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/model"
 )
 
 var (

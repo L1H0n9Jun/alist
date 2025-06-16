@@ -3,10 +3,10 @@ package common
 import (
 	stdpath "path"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/internal/sign"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/internal/setting"
+	"alist/internal/sign"
 )
 
 func Sign(obj model.Obj, parent string, encrypt bool) string {

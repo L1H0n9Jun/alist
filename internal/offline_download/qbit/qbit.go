@@ -1,12 +1,13 @@
 package qbit
 
 import (
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/pkg/qbittorrent"
+	"alist/internal/conf"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/internal/offline_download/tool"
+	"alist/internal/setting"
+	"alist/pkg/qbittorrent"
+
 	"github.com/pkg/errors"
 )
 

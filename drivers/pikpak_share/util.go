@@ -1,18 +1,19 @@
 package pikpak_share
 
 import (
+	"alist/pkg/utils"
 	"crypto/md5"
 	"crypto/sha1"
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"net/http"
 	"regexp"
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/drivers/base"
+	"alist/drivers/base"
+
 	"github.com/go-resty/resty/v2"
 )
 

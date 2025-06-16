@@ -3,7 +3,7 @@ package tool_test
 import (
 	"testing"
 
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
+	"alist/internal/offline_download/tool"
 )
 
 func TestGetFiles(t *testing.T) {

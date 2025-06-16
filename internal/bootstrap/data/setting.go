@@ -1,13 +1,14 @@
 package data
 
 import (
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/pkg/utils/random"
+	"alist/cmd/flags"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/internal/offline_download/tool"
+	"alist/internal/op"
+	"alist/pkg/utils"
+	"alist/pkg/utils/random"
+
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

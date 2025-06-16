@@ -1,10 +1,10 @@
 package gowebdav
 
 import (
+	"alist/pkg/utils"
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"io"
 	"net/http"
 	"net/url"

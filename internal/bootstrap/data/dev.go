@@ -3,11 +3,12 @@ package data
 import (
 	"context"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/message"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
+	"alist/cmd/flags"
+	"alist/internal/db"
+	"alist/internal/message"
+	"alist/internal/model"
+	"alist/internal/op"
+
 	log "github.com/sirupsen/logrus"
 )
 

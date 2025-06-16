@@ -1,8 +1,8 @@
 package aria2
 
 import (
-	"github.com/alist-org/alist/v3/pkg/aria2/rpc"
-	"github.com/alist-org/alist/v3/pkg/generic_sync"
+	"alist/pkg/aria2/rpc"
+	"alist/pkg/generic_sync"
 )
 
 const (

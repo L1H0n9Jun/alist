@@ -5,9 +5,10 @@ import (
 	stdpath "path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/pkg/utils"
+
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

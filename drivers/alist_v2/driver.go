@@ -3,11 +3,11 @@ package alist_v2
 import (
 	"context"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/drivers/base"
+	"alist/internal/driver"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/server/common"
 )
 
 type AListV2 struct {

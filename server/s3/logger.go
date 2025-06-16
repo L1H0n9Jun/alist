@@ -5,7 +5,8 @@ package s3
 import (
 	"fmt"
 
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/pkg/utils"
+
 	"github.com/alist-org/gofakes3"
 )
 

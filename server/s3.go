@@ -5,9 +5,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/server/common"
-	"github.com/alist-org/alist/v3/server/s3"
+	"alist/internal/conf"
+	"alist/server/common"
+	"alist/server/s3"
+
 	"github.com/gin-gonic/gin"
 )
 

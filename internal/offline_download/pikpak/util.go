@@ -4,10 +4,11 @@ import (
 	"context"
 	"time"
 
+	"alist/drivers/pikpak"
+	"alist/internal/op"
+	"alist/pkg/singleflight"
+
 	"github.com/Xhofe/go-cache"
-	"github.com/alist-org/alist/v3/drivers/pikpak"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/singleflight"
 )
 
 var taskCache = cache.NewMemCache(cache.WithShards[[]pikpak.OfflineTask](16))

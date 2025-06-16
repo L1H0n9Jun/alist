@@ -1,21 +1,22 @@
 package pikpak
 
 import (
+	"alist/drivers/base"
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
+	hash_extend "alist/pkg/utils/hash"
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	hash_extend "github.com/alist-org/alist/v3/pkg/utils/hash"
-	"github.com/go-resty/resty/v2"
-	log "github.com/sirupsen/logrus"
-	"golang.org/x/oauth2"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/go-resty/resty/v2"
+	log "github.com/sirupsen/logrus"
+	"golang.org/x/oauth2"
 )
 
 type PikPak struct {

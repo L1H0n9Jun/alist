@@ -11,11 +11,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/alist-org/alist/v3/pkg/http_range"
+	"alist/pkg/http_range"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/drivers/base"
+	"alist/internal/model"
+	"alist/pkg/utils"
+
 	"github.com/go-resty/resty/v2"
 	"github.com/golang-jwt/jwt/v4"
 	log "github.com/sirupsen/logrus"

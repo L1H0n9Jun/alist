@@ -11,8 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/conf"
+	"alist/drivers/base"
+	"alist/internal/conf"
+
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/html"
 )

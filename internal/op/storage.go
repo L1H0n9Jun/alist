@@ -8,11 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/generic_sync"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/db"
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/pkg/generic_sync"
+	"alist/pkg/utils"
+
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

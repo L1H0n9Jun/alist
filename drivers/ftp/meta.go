@@ -1,8 +1,9 @@
 package ftp
 
 import (
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/op"
+	"alist/internal/driver"
+	"alist/internal/op"
+
 	"github.com/axgle/mahonia"
 )
 

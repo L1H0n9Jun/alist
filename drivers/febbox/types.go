@@ -1,10 +1,10 @@
 package febbox
 
 import (
+	"alist/internal/model"
+	"alist/pkg/utils"
+	hash_extend "alist/pkg/utils/hash"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	hash_extend "github.com/alist-org/alist/v3/pkg/utils/hash"
 	"strconv"
 	"time"
 )

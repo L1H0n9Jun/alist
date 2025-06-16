@@ -1,8 +1,9 @@
 package _115
 
 import (
+	"alist/drivers/base"
+
 	driver115 "github.com/SheltonZhu/115driver/pkg/driver"
-	"github.com/alist-org/alist/v3/drivers/base"
 	log "github.com/sirupsen/logrus"
 )
 

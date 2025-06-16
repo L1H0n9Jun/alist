@@ -5,11 +5,12 @@ import (
 	"strings"
 	"sync"
 
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/pkg/http_range"
+	"alist/pkg/utils"
+
 	driver115 "github.com/SheltonZhu/115driver/pkg/driver"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/http_range"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"github.com/pkg/errors"
 	"golang.org/x/time/rate"
 )

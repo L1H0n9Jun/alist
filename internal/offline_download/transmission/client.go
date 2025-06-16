@@ -10,11 +10,12 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
-	"github.com/alist-org/alist/v3/internal/setting"
+	"alist/internal/conf"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/internal/offline_download/tool"
+	"alist/internal/setting"
+
 	"github.com/hekmon/transmissionrpc/v3"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

@@ -5,9 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/cmd/flags"
+	"alist/internal/conf"
+	"alist/pkg/utils"
+
 	"github.com/natefinch/lumberjack"
 	"github.com/sirupsen/logrus"
 )

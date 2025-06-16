@@ -1,13 +1,14 @@
 package mega
 
 import (
+	"alist/pkg/utils"
 	"context"
 	"fmt"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/t3rm1n4l/go-mega"
 	"io"
 	"sync"
 	"time"
+
+	"github.com/t3rm1n4l/go-mega"
 )
 
 // do others that not defined in Driver interface

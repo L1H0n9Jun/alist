@@ -6,14 +6,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/pkg/utils/random"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/internal/conf"
+	"alist/internal/db"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/setting"
+	"alist/pkg/utils"
+	"alist/pkg/utils/random"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	"gopkg.in/ldap.v3"
 )

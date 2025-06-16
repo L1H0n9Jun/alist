@@ -6,13 +6,14 @@ import (
 	"net/http"
 	stdpath "path"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/stream"
-	"github.com/alist-org/alist/v3/internal/task"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/conf"
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/stream"
+	"alist/internal/task"
+	"alist/pkg/utils"
+
 	"github.com/pkg/errors"
 	"github.com/xhofe/tache"
 )

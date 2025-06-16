@@ -1,8 +1,8 @@
 package net
 
 import (
+	"alist/pkg/utils"
 	"fmt"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"io"
 	"math"
 	"mime/multipart"
@@ -11,7 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/pkg/http_range"
+	"alist/pkg/http_range"
+
 	log "github.com/sirupsen/logrus"
 )
 

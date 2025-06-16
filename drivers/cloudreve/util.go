@@ -6,11 +6,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/pkg/cookie"
+	"alist/drivers/base"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/internal/setting"
+	"alist/pkg/cookie"
+
 	"github.com/go-resty/resty/v2"
 	json "github.com/json-iterator/go"
 	jsoniter "github.com/json-iterator/go"

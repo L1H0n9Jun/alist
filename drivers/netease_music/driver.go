@@ -4,9 +4,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/driver"
+	"alist/internal/errs"
+	"alist/internal/model"
+
 	_ "golang.org/x/image/webp"
 )
 
