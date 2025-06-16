@@ -1,21 +1,22 @@
 package s3
 
 import (
+	"alist/server/common"
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/alist-org/alist/v3/server/common"
 	"io"
 	"net/url"
 	stdpath "path"
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/stream"
-	"github.com/alist-org/alist/v3/pkg/cron"
+	"alist/internal/stream"
+	"alist/pkg/cron"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/driver"
+	"alist/internal/model"
+
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"

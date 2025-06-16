@@ -1,18 +1,19 @@
 package quark_uc_tv
 
 import (
+	"alist/drivers/base"
+	"alist/internal/op"
+	"alist/pkg/utils"
 	"context"
 	"crypto/md5"
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/go-resty/resty/v2"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/go-resty/resty/v2"
 )
 
 const (

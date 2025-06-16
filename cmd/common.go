@@ -5,10 +5,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/alist-org/alist/v3/internal/bootstrap"
-	"github.com/alist-org/alist/v3/internal/bootstrap/data"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/bootstrap"
+	"alist/internal/bootstrap/data"
+	"alist/internal/db"
+	"alist/pkg/utils"
+
 	log "github.com/sirupsen/logrus"
 )
 

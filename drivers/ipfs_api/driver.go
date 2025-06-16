@@ -8,8 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/driver"
+	"alist/internal/model"
+
 	shell "github.com/ipfs/go-ipfs-api"
 )
 

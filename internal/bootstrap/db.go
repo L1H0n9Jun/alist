@@ -6,9 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
+	"alist/cmd/flags"
+	"alist/internal/conf"
+	"alist/internal/db"
+
 	log "github.com/sirupsen/logrus"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"

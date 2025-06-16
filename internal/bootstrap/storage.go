@@ -3,11 +3,11 @@ package bootstrap
 import (
 	"context"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/conf"
+	"alist/internal/db"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
 )
 
 func LoadStorages() {

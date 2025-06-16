@@ -3,12 +3,13 @@ package data
 import (
 	"os"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/pkg/utils/random"
+	"alist/cmd/flags"
+	"alist/internal/db"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
+	"alist/pkg/utils/random"
+
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

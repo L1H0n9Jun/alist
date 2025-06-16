@@ -11,8 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/drivers/base"
+	"alist/pkg/utils"
+
 	"github.com/go-resty/resty/v2"
 )
 

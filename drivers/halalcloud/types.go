@@ -1,12 +1,13 @@
 package halalcloud
 
 import (
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/model"
+	"alist/pkg/utils"
+	"time"
+
 	"github.com/city404/v6-public-rpc-proto/go/v6/common"
 	pubUserFile "github.com/city404/v6-public-rpc-proto/go/v6/userfile"
 	"google.golang.org/grpc"
-	"time"
 )
 
 type AuthService struct {

@@ -13,11 +13,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/bootstrap"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server"
+	"alist/cmd/flags"
+	"alist/internal/bootstrap"
+	"alist/internal/conf"
+	"alist/pkg/utils"
+	"alist/server"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

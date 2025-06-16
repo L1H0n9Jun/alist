@@ -5,8 +5,9 @@ import (
 	"strings"
 	"time"
 
+	"alist/internal/driver"
+
 	"github.com/Xhofe/go-cache"
-	"github.com/alist-org/alist/v3/internal/driver"
 )
 
 // storage upload progress, for upload recovery

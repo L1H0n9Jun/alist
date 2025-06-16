@@ -4,11 +4,12 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/server/common"
+	"alist/internal/conf"
+	"alist/internal/db"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/server/common"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )

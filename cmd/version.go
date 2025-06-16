@@ -7,7 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alist-org/alist/v3/internal/conf"
+	"alist/internal/conf"
+
 	"github.com/spf13/cobra"
 )
 
@@ -18,7 +19,7 @@ var VersionCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Printf(`Built At: %s
 Go Version: %s
-Author: %s
+Developer: %s
 Commit ID: %s
 Version: %s
 WebVersion: %s

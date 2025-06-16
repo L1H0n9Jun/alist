@@ -7,12 +7,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/setting"
+	"alist/internal/conf"
+	"alist/internal/errs"
+	"alist/internal/fs"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/setting"
+
 	"github.com/alist-org/gofakes3"
 )
 

@@ -1,7 +1,8 @@
 package template
 
 import (
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/model"
+
 	"github.com/xhofe/wopan-sdk-go"
 )
 

@@ -1,23 +1,24 @@
 package thunder_browser
 
 import (
+	"alist/drivers/base"
+	"alist/internal/driver"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/pkg/utils"
+	hash_extend "alist/pkg/utils/hash"
 	"context"
 	"errors"
 	"fmt"
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	hash_extend "github.com/alist-org/alist/v3/pkg/utils/hash"
+	"io"
+	"net/http"
+	"strings"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/go-resty/resty/v2"
-	"io"
-	"net/http"
-	"strings"
 )
 
 type ThunderBrowser struct {

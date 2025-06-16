@@ -5,13 +5,14 @@ import (
 	stdpath "path"
 	"time"
 
+	"alist/internal/driver"
+	"alist/internal/errs"
+	"alist/internal/model"
+	"alist/pkg/generic_sync"
+	"alist/pkg/singleflight"
+	"alist/pkg/utils"
+
 	"github.com/Xhofe/go-cache"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/generic_sync"
-	"github.com/alist-org/alist/v3/pkg/singleflight"
-	"github.com/alist-org/alist/v3/pkg/utils"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

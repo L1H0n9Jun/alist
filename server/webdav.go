@@ -7,12 +7,13 @@ import (
 	"path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server/webdav"
+	"alist/internal/conf"
+	"alist/internal/model"
+	"alist/internal/op"
+	"alist/internal/setting"
+	"alist/pkg/utils"
+	"alist/server/webdav"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )

@@ -1,14 +1,14 @@
 package _123Share
 
 import (
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/pkg/utils"
 	"net/url"
 	"path"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/model"
 )
 
 type File struct {

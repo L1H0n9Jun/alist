@@ -1,17 +1,18 @@
 package kodbox
 
 import (
+	"alist/pkg/utils"
 	"context"
 	"fmt"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/go-resty/resty/v2"
 	"net/http"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
+	"github.com/go-resty/resty/v2"
+
+	"alist/internal/driver"
+	"alist/internal/model"
 )
 
 type KodBox struct {

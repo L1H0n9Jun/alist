@@ -4,9 +4,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
+	"alist/internal/conf"
 
-	"github.com/alist-org/alist/v3/internal/driver"
+	"alist/internal/driver"
+
 	"github.com/pkg/errors"
 )
 

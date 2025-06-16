@@ -7,11 +7,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/net"
-	"github.com/alist-org/alist/v3/internal/stream"
-	"github.com/alist-org/alist/v3/pkg/http_range"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/model"
+	"alist/internal/net"
+	"alist/internal/stream"
+	"alist/pkg/http_range"
+	"alist/pkg/utils"
+
 	log "github.com/sirupsen/logrus"
 )
 

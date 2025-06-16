@@ -1,11 +1,12 @@
 package op
 
 import (
-	"github.com/alist-org/alist/v3/internal/errs"
+	"alist/internal/errs"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/driver"
+	"alist/pkg/utils"
+
 	log "github.com/sirupsen/logrus"
 )
 

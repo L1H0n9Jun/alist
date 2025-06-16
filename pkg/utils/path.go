@@ -5,7 +5,7 @@ import (
 	stdpath "path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/errs"
+	"alist/internal/errs"
 )
 
 // FixAndCleanPath

@@ -5,7 +5,8 @@ import (
 	stdpath "path"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/model"
+	"alist/internal/model"
+
 	log "github.com/sirupsen/logrus"
 )
 

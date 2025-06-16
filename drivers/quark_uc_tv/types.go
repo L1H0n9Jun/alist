@@ -1,8 +1,8 @@
 package quark_uc_tv
 
 import (
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"alist/internal/model"
+	"alist/pkg/utils"
 	"time"
 )
 
